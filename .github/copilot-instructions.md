@@ -9,5 +9,5 @@
 - Use consistent naming conventions.
 - Try to reduce code duplication.
 - Prefer maintainability and readability over optimization.
-- After profiling, optimize performance-critical methods that are proven bottlenecks while maintaining code clarity.
+- If a method is used a lot, try to optimize it for performance while maintaining code clarity.
 - Prefer explicit error handling over silent failures.
